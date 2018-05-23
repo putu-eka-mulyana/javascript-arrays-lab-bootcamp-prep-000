@@ -20,6 +20,7 @@ function prependKitten(name){
   let newArray=[...kittens];
   newArray.unshift(name);
   return newArray;
+<<<<<<< HEAD
 }
 function removeLastKitten(){
   let newArray=[...kittens];
@@ -31,4 +32,6 @@ function removeFirstKitten(){
   let newArray=[...kittens];
   newArray.shift();
   return newArray;
+=======
+>>>>>>> 9bae014546b33801f76be9ffbe24ff81c59d40ac
 }
